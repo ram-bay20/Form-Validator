@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="CSS/style.css">
+     <title>Form Validator</title>
+     <link rel="shortcut icon" href="Favicon/Avengers.png" type="image/x-icon">
+</head>
+
+<body>
+     <div class="container current" id="login">
+          <form id="form1" class="form">
+               <h1>Please Login here</h1>
+               <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Enter Your Email.." id="Email">
+                    <small>Error Message</small>
+               </div>
+               <div class="form-control">
+                    <label for="password">Create Password</label>
+                    <input type="password" placeholder="Enter Your Password.." id="Password">
+                    <small>Error Message</small>
+               </div>
+               <button type="submit">Login</button>
+               <p>
+                    Don't have an account?
+                    <a href="#register" class="signup">Register</a>
+               </p>
+          </form>
+     </div>
+     <div class="container" id="register">
+          <form id="form2" class="form">
+               <h1>Please Register here</h1>
+               <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Enter Your Name.." id="name">
+                    <small>Error Message</small>
+               </div>
+               <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" placeholder="Enter Your Email.." id="email">
+                    <small>Error Message</small>
+               </div>
+               <div class="form-control">
+                    <label for="password">Create Password</label>
+                    <input type="password" placeholder="Create Your Password.." id="password">
+                    <small>Error Message</small>
+               </div>
+               <div class="form-control">
+                    <label for="password-2">Confirm Password</label>
+                    <input type="password" placeholder="Confirm Your Password.." id="password-2">
+                    <small>Error Message</small>
+               </div>
+               <button type="submit">Register</button>
+               <p>
+                    Already have an account?
+                    <a href="#login" class="signin">Login</a>
+               </p>
+          </form>
+     </div>
+     <script src="JS/script.js"></script>
+</body>
+
+</html>
